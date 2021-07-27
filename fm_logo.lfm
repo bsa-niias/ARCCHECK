@@ -1,0 +1,58 @@
+object Form_ArcControl: TForm_ArcControl
+  Left = 800
+  Height = 358
+  Top = 372
+  Width = 520
+  BorderStyle = bsSingle
+  Caption = 'Контроль архивов (2021.07.27.v.0.0.1)'
+  ClientHeight = 358
+  ClientWidth = 520
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object lb_Logo: TListBox
+    Left = 0
+    Height = 336
+    Top = 0
+    Width = 520
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Courier10 BT'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ItemHeight = 0
+    ParentFont = False
+    TabOrder = 0
+  end
+  object sbHelper: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 335
+    Width = 520
+    Panels = <    
+      item
+        Text = 'YYYY.MM.DD hh.mm.ss'
+        Width = 150
+      end    
+      item
+        Text = 'PATH :'
+        Width = 300
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object Timer_sb: TTimer
+    OnTimer = Timer_sbTimer
+    Left = 424
+    Top = 32
+  end
+  object Timer_Search: TTimer
+    Interval = 3600000
+    OnTimer = Timer_SearchTimer
+    Left = 420
+    Top = 104
+  end
+end
