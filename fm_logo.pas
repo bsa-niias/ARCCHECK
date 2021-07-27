@@ -18,6 +18,7 @@ type
     sbHelper: TStatusBar;
     Timer_Search: TTimer;
     Timer_sb: TTimer;
+    procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure Timer_sbTimer(Sender: TObject);
     procedure Timer_SearchTimer(Sender: TObject);
@@ -236,6 +237,12 @@ begin
    sbHelper.Panels.items[2].text := IntToStr (lb_Logo.Items.Count);
 
    Timer_SearchTimer (NIL);
+end;
+
+procedure TForm_ArcControl.FormClose(Sender: TObject;
+  var CloseAction: TCloseAction);
+begin
+  CloseAction := caMinimize;
 end;
 
 end.

@@ -1,12 +1,14 @@
 object Form_ArcControl: TForm_ArcControl
-  Left = 800
+  Left = 790
   Height = 358
-  Top = 372
+  Top = 87
   Width = 520
+  BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  Caption = 'Контроль архивов (2021.07.27.v.0.0.1)'
+  Caption = 'Контроль архивов (2021.07.27.v.0.0.3)'
   ClientHeight = 358
   ClientWidth = 520
+  OnClose = FormClose
   OnCreate = FormCreate
   LCLVersion = '2.0.12.0'
   object lb_Logo: TListBox

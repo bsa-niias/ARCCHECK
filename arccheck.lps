@@ -18,10 +18,11 @@
         <Filename Value="fm_logo.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form_ArcControl"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="187"/>
-        <CursorPos X="28" Y="238"/>
+        <TopLine Value="196"/>
+        <CursorPos X="22" Y="244"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -35,7 +36,7 @@
         <Loaded Value="True"/>
       </Unit2>
     </Units>
-    <JumpHistory Count="2" HistoryIndex="1">
+    <JumpHistory Count="3" HistoryIndex="2">
       <Position1>
         <Filename Value="C:\lazarus\fpc\3.2.0\source\rtl\objpas\sysutils\filutilh.inc"/>
         <Caret Line="89" Column="22" TopLine="62"/>
@@ -44,6 +45,10 @@
         <Filename Value="fm_logo.pas"/>
         <Caret Line="85" Column="45" TopLine="68"/>
       </Position2>
+      <Position3>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="239" Column="28" TopLine="188"/>
+      </Position3>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

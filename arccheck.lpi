@@ -40,6 +40,7 @@
         <Filename Value="fm_logo.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form_ArcControl"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit1>
     </Units>
