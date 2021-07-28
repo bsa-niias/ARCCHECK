@@ -1,21 +1,22 @@
 object Form_ArcControl: TForm_ArcControl
-  Left = 790
-  Height = 358
-  Top = 87
-  Width = 520
+  Left = 348
+  Height = 502
+  Top = 262
+  Width = 586
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  Caption = 'Контроль архивов (2021.07.27.v.0.0.3)'
-  ClientHeight = 358
-  ClientWidth = 520
+  Caption = 'Контроль архивов (2021.07.28.v.0.0.4)'
+  ClientHeight = 502
+  ClientWidth = 586
+  Color = clActiveCaption
   OnClose = FormClose
   OnCreate = FormCreate
   LCLVersion = '2.0.12.0'
   object lb_Logo: TListBox
-    Left = 0
-    Height = 336
-    Top = 0
-    Width = 520
+    Left = 3
+    Height = 313
+    Top = 4
+    Width = 580
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -30,8 +31,8 @@ object Form_ArcControl: TForm_ArcControl
   object sbHelper: TStatusBar
     Left = 0
     Height = 23
-    Top = 335
-    Width = 520
+    Top = 479
+    Width = 586
     Panels = <    
       item
         Text = 'YYYY.MM.DD hh.mm.ss'
@@ -44,7 +45,24 @@ object Form_ArcControl: TForm_ArcControl
       item
         Width = 50
       end>
+    ParentColor = False
     SimplePanel = False
+  end
+  object lb_DelFiles: TListBox
+    Left = 3
+    Height = 156
+    Top = 320
+    Width = 580
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Courier10 BT'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ItemHeight = 0
+    ParentFont = False
+    TabOrder = 2
   end
   object Timer_sb: TTimer
     OnTimer = Timer_sbTimer

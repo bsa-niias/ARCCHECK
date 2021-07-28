@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
       </Unit0>
       <Unit1>
         <Filename Value="fm_logo.pas"/>
@@ -21,9 +21,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="196"/>
-        <CursorPos X="22" Y="244"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="199"/>
+        <CursorPos X="66" Y="226"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -36,7 +36,7 @@
         <Loaded Value="True"/>
       </Unit2>
     </Units>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="9" HistoryIndex="8">
       <Position1>
         <Filename Value="C:\lazarus\fpc\3.2.0\source\rtl\objpas\sysutils\filutilh.inc"/>
         <Caret Line="89" Column="22" TopLine="62"/>
@@ -49,6 +49,30 @@
         <Filename Value="fm_logo.pas"/>
         <Caret Line="239" Column="28" TopLine="188"/>
       </Position3>
+      <Position4>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="213" Column="31" TopLine="196"/>
+      </Position4>
+      <Position5>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="182" TopLine="152"/>
+      </Position5>
+      <Position6>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="183" TopLine="153"/>
+      </Position6>
+      <Position7>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="182" TopLine="152"/>
+      </Position7>
+      <Position8>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="172" Column="79" TopLine="153"/>
+      </Position8>
+      <Position9>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="245" TopLine="200"/>
+      </Position9>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

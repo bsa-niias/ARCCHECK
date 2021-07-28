@@ -15,6 +15,7 @@ type
 
   TForm_ArcControl = class(TForm)
     lb_Logo: TListBox;
+    lb_DelFiles: TListBox;
     sbHelper: TStatusBar;
     Timer_Search: TTimer;
     Timer_sb: TTimer;
@@ -130,6 +131,7 @@ begin
                        delres := DeleteFile (delfile);
                        lb_Logo.Items.Add ('!DELETE FILE [' + delfile + '] RES : ' + BoolToStr (delres));
                        lb_Logo.Items.Add ('!RET');
+                       lb_DelFiles.Items.Add (delfile);
                        exit;
                   end
                   else begin
@@ -176,6 +178,7 @@ begin
                        delres := DeleteFile (delfile);
                        lb_Logo.Items.Add ('!DELETE FILE [' + delfile + '] RES : ' + BoolToStr (delres));
                        lb_Logo.Items.Add ('!RET');
+                       lb_DelFiles.Items.Add (delfile);
                        exit;
                   end
                   else begin
@@ -205,7 +208,8 @@ var
    ArcReg   : TRegistry;
 begin
    lb_Logo.Items.Add ('Program clear archive TUMS ... started !');
-   lb_Logo.Items.Add ('Delete old "*.ard" && "*\RESULT\*.ogo" files !');
+   lb_Logo.Items.Add ('Delete old "[HKLM\SOFTWARE\ARCRPCTUMS\ARCPATH]\*.ard" files !');
+   lb_Logo.Items.Add ('Delete old "[HKLM\SOFTWARE\ARCRPCTUMS\ARCPATH]\RESULT\*.ogo" files !');
    Timer_sbTimer (NIL);
    lb_Logo.Items.Add (sbHelper.Panels.items[0].text);
 
