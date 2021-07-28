@@ -132,7 +132,7 @@ begin
                        lb_Logo.Items.Add ('!DELETE FILE [' + delfile + '] RES : ' + BoolToStr (delres));
                        lb_Logo.Items.Add ('!RET');
                        lb_DelFiles.Items.Add (delfile);
-                       exit;
+                       break;
                   end
                   else begin
                        lb_Logo.Items.Add ('!CHECK [' + IntToStr (ArcLive*24*60*60) + ':' + IntToStr(sec) + '] - NEW FILE!');
@@ -179,7 +179,7 @@ begin
                        lb_Logo.Items.Add ('!DELETE FILE [' + delfile + '] RES : ' + BoolToStr (delres));
                        lb_Logo.Items.Add ('!RET');
                        lb_DelFiles.Items.Add (delfile);
-                       exit;
+                       break;
                   end
                   else begin
                        lb_Logo.Items.Add ('!CHECK [' + IntToStr (ArcLive*24*60*60) + ':' + IntToStr(sec) + '] - NEW FILE!');
