@@ -21,58 +21,73 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="199"/>
-        <CursorPos X="66" Y="226"/>
+        <TopLine Value="206"/>
+        <CursorPos X="3" Y="249"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="C:\lazarus\fpc\3.2.0\source\rtl\objpas\sysutils\filutilh.inc"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="59"/>
         <CursorPos X="3" Y="67"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit2>
     </Units>
-    <JumpHistory Count="9" HistoryIndex="8">
+    <JumpHistory Count="13" HistoryIndex="12">
       <Position1>
-        <Filename Value="C:\lazarus\fpc\3.2.0\source\rtl\objpas\sysutils\filutilh.inc"/>
-        <Caret Line="89" Column="22" TopLine="62"/>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="227" Column="66" TopLine="200"/>
       </Position1>
       <Position2>
         <Filename Value="fm_logo.pas"/>
-        <Caret Line="85" Column="45" TopLine="68"/>
+        <Caret Line="247" TopLine="200"/>
       </Position2>
       <Position3>
         <Filename Value="fm_logo.pas"/>
-        <Caret Line="239" Column="28" TopLine="188"/>
+        <Caret Line="25"/>
       </Position3>
       <Position4>
         <Filename Value="fm_logo.pas"/>
-        <Caret Line="213" Column="31" TopLine="196"/>
+        <Caret Line="247" TopLine="201"/>
       </Position4>
       <Position5>
         <Filename Value="fm_logo.pas"/>
-        <Caret Line="182" TopLine="152"/>
+        <Caret Line="24"/>
       </Position5>
       <Position6>
         <Filename Value="fm_logo.pas"/>
-        <Caret Line="183" TopLine="153"/>
+        <Caret Line="226" Column="52" TopLine="200"/>
       </Position6>
       <Position7>
         <Filename Value="fm_logo.pas"/>
-        <Caret Line="182" TopLine="152"/>
+        <Caret Line="211" Column="4" TopLine="201"/>
       </Position7>
       <Position8>
         <Filename Value="fm_logo.pas"/>
-        <Caret Line="172" Column="79" TopLine="153"/>
+        <Caret Line="239" Column="7" TopLine="201"/>
       </Position8>
       <Position9>
         <Filename Value="fm_logo.pas"/>
-        <Caret Line="245" TopLine="200"/>
+        <Caret Line="249" Column="3" TopLine="201"/>
       </Position9>
+      <Position10>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="52" Column="3" TopLine="45"/>
+      </Position10>
+      <Position11>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="88" Column="45" TopLine="88"/>
+      </Position11>
+      <Position12>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="233" Column="12" TopLine="206"/>
+      </Position12>
+      <Position13>
+        <Filename Value="fm_logo.pas"/>
+        <Caret Line="234" Column="15" TopLine="206"/>
+      </Position13>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

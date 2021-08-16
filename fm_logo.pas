@@ -21,6 +21,7 @@ type
     Timer_sb: TTimer;
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
     procedure FormCreate(Sender: TObject);
+    procedure FormDblClick(Sender: TObject);
     procedure Timer_sbTimer(Sender: TObject);
     procedure Timer_SearchTimer(Sender: TObject);
   private
@@ -241,6 +242,11 @@ begin
    sbHelper.Panels.items[2].text := IntToStr (lb_Logo.Items.Count);
 
    Timer_SearchTimer (NIL);
+end;
+
+procedure TForm_ArcControl.FormDblClick(Sender: TObject);
+begin
+  Timer_SearchTimer (Sender);
 end;
 
 procedure TForm_ArcControl.FormClose(Sender: TObject;
